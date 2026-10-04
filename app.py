@@ -5,7 +5,7 @@ from twilio.rest import Client as TwilioClient
 
 from prompts import SUMMARY_REQUEST_PROMPT, SYSTEM_PROMPT, WELCOME_MESSAGE_TEMPLATE
 
-MODEL_NAME = "gemini-3.5-flash"
+MODEL_NAME = "gemini-3.5-flash-lite"
 st.set_page_config(page_title="PromptPlate", page_icon="🍽️")
 
 # Load credentials from .streamlit/secrets.toml
